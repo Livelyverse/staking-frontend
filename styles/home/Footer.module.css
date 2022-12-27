@@ -1,0 +1,213 @@
+.footer-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 150px;
+    width: 1440px;
+    height: 420px;
+    color: #fff;
+    padding: 115px 150px 50px 150px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.livelyverse-logo {
+    width: 256px;
+    height: 54px;
+}
+
+.livelyverse-logo span img {
+    cursor: pointer;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.social-medias span , .social-medias span image {
+    cursor: pointer;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 225px;
+    width: auto;
+}
+
+.webPages {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ourTokens {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 120px;
+}
+
+.pages p {
+    font-family: 'PopinsLight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.15px;
+    color: #DDDFE1;
+    cursor: pointer;
+    margin-bottom: 22px;
+    width: 120%;
+}
+
+.copy-right {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.15px;
+    font-family: "PopinsLight";
+
+        font-size: 10px;
+        line-height: 15px;
+        color: #FFFFFF;
+}
+
+.footerBg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.icon-shadow {
+    width: 24px !important;
+    min-width: 24px !important;
+    height: 24px !important;
+    min-height: 24px !important;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 100%;
+    background-color: rgba(93, 80, 31, 0.3);
+    box-shadow: 0px 0px 10px 10px rgba(93, 80, 31, 0.3);
+    margin: 0 !important;
+}
+
+.shadow-hover {
+    position: relative;
+}
+
+@media only screen and (min-device-width: 1340px) and (max-device-width: 1440px) {
+    .footer-container {
+        width: 100%;
+        padding: 115px 100px 50px 100px;
+    }
+}
+
+@media only screen and (min-device-width: 1240px) and (max-device-width: 1340px) {
+    .footer-container {
+        width: 100%;
+        padding: 115px 50px 50px 50px;
+    }
+}
+
+@media only screen and (min-device-width: 1140px) and (max-device-width: 1240px) {
+    .footer-container {
+        width: 100%;
+        padding: 115px 20px 50px 20px;
+    }
+}
+
+@media only screen and (min-device-width: 865px) and (max-device-width: 1140px) {
+    .footer-container {
+        width: 100%;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 865px) {
+    .footer-container {
+        width: 100%;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    }
+
+    .pages {
+        margin-left: 22px;
+    }
+
+    .ourTokens {
+        margin-left: 22px;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 865px) {
+    .pages p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .footer-container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-flow: none;
+        padding: 50px;
+        margin-top: 0;
+    }
+
+    .main {
+        width: 100%;
+        margin-bottom: 39px;
+    }
+
+    .pages {
+        margin: 0;
+        width: 100%;
+    }
+
+    .ourTokens {
+        margin: 0;
+    }
+
+    .pages p {
+        font-size: 12px;
+        line-height: 18px;
+        width: auto;
+    }
+
+    .copy-right {
+        font-size: 10px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+
+    .social-medias {
+        justify-content: space-around;
+    }
+}
