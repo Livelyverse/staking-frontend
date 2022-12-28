@@ -1,0 +1,85 @@
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.banner-bg,
+.lively-club {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 100%;
+  min-height: 92px;
+}
+
+.banner-bg {
+  width: 556px;
+}
+
+.lively-club {
+  width: calc(100% - 556px);
+}
+
+.banner-bg span {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.lively-club {
+  justify-content: flex-start;
+  background-image: url('../../public/images/pictures/nft-banner-bg.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  object-fit: cover;
+  padding: 50px 0px 50px 150px;
+  height: calc(100% - 100px) !important;
+}
+
+.lively-club h3 {
+  font-family: "PopinsMedium";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  color: #f8f8f6;
+  margin-bottom: 22px;
+}
+
+.lively-club p {
+  font-family: "PopinsLight";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+}
+
+
+
+@media only screen and (min-device-width: 1340px) and (max-device-width: 1440px) {
+  .lively-club {
+    padding: 50px 100px !important;
+  }
+}
+
+@media only screen and (min-device-width: 1240px) and (max-device-width: 1340px) {
+  .lively-club {
+    padding: 50px 50px !important;
+  }
+}
+
+@media only screen and (min-device-width: 1140px) and (max-device-width: 1240px) {
+  .lively-club {
+    padding: 50px 20px !important;
+  }
+}
