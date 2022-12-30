@@ -1,0 +1,54 @@
+.background-modal {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* z-index: 20; */
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.modal-content {
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+    width: 100%;
+    max-width: 530px;
+    height: auto;
+    max-height: 325px;
+    background: linear-gradient(0deg, #101010, #101010),
+        linear-gradient(0deg, #3C3C3B, #3C3C3B);
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 12px;
+    padding: 32px 32px 35px 32px;
+}
+
+.policy-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 0px;
+    top: 12px;
+    background-color: #B8B8B8;
+    border-radius: 100%;
+}
+
+.policy-des {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+}

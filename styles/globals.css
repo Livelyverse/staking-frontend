@@ -14,6 +14,10 @@
   @apply flex flex-col justify-start items-start
 }
 
+.flex-row-start {
+  @apply flex flex-row justify-start items-start
+}
+
 .flex-row-center {
   @apply flex flex-row justify-center items-center
 }
@@ -186,6 +190,26 @@ body {
 @font-face {
   font-family: 'PopinsExtraBold';
   src: url(../public/fonts/Poppins/PoppinsLatin-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url(../public/fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url(../public/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url(../public/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url(../public/fonts/Roboto/Roboto-Bold.ttf);
 }
 
 text {

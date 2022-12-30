@@ -9,7 +9,7 @@ const Banner = () => {
       <div className={styles['lively-club']}>
         <h3>decentralized applications</h3>
 
-        <p>Home /</p>
+        <p>Lively vers dapp</p>
       </div>
 
       {/* banner bg section */}
