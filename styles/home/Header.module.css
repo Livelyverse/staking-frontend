@@ -19,11 +19,9 @@
 }
 
 .auth-btns p {
-  font-family: "PopinsLight";
   font-weight: 500;
   font-size: 16px;
-  color: #b1b2b7;
-  margin: 0 6px;
+  color: #DDDFE1;
   cursor: pointer;
 }
 
@@ -53,13 +51,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 105px;
+  width: auto;
+  padding: 0 20px;
   height: 40px;
   border-radius: 8px;
   color: #f8f8f6;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     #5100b9;
-  font-family: "PopinsLight";
   font-size: 16px;
   font-weight: 400;
   border: none;
@@ -74,6 +72,7 @@
   width: calc(100% - 432px);
 }
 
+.pages-link a,
 .pages-link p {
   color: #dddfe1;
   font-size: 14px;
@@ -83,6 +82,7 @@
   font-family: "PopinsLight";
   font-size: 14px;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .pages-link p:hover {
