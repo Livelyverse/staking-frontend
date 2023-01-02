@@ -187,21 +187,21 @@
 @media only screen and (min-device-width: 1340px) and (max-device-width: 1440px) {
   .header-container {
     width: 100%;
-    padding: 20px 100px !important;
+    padding: 20px 100px;
   }
 }
 
 @media only screen and (min-device-width: 1240px) and (max-device-width: 1340px) {
   .header-container {
     width: 100%;
-    padding: 20px 50px !important;
+    padding: 20px 50px;
   }
 }
 
 @media only screen and (min-device-width: 1140px) and (max-device-width: 1240px) {
   .header-container {
     width: 100%;
-    padding: 20px 20px !important;
+    padding: 20px 20px;
   }
 }
 
