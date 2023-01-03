@@ -38,12 +38,12 @@ const StakingPlan = () => {
   };
 
   return (
-    <div className={`w-full flex justify-between items-start mb-40 ${styles['staking-container']}`}>
-      <div className={`${styles['img-container']} rounded-2xl`}>
+    <div className={`w-full flex sm:max-lg:flex-col sm:max-lg:justify-center sm:max-lg:items-center justify-between items-start mb-40 sm:max-lg:mb-20 ${styles['staking-container']}`}>
+      <div className={`${styles['img-container']} rounded-2xl sm:max-lg:mb-10`}>
         <Image className={`rounded-2xl`} src={stakingPlan} alt="staking plan" />
       </div>
 
-      <div className={`flex-col-start ${styles['staking-des']}`}>
+      <div className={`flex-col-start sm:max-lg:w-full sm:max-lg:justify-start sm:max-lg:items-start  ${styles['staking-des']}`}>
         <h3 className={`${styles['staking-title']} font-popins-m text-white-smoke`}>Stacking plan</h3>
 
         <p className={`${styles['staking-text']} font-popins-l mt-3 max-w-lg`}>
@@ -54,7 +54,7 @@ const StakingPlan = () => {
         <button
           onClick={() => lunchStaking()}
           className={`flex-row-center font-popins-l 
-          bg-purple-white  text-white mt-12 rounded-lg
+          bg-purple-white  text-white mt-12 rounded-lg 
         ${styles['dapp-btn']}`}
         >
           Lunch dapp &#62;

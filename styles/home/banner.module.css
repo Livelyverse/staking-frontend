@@ -19,11 +19,13 @@
 }
 
 .banner-bg {
-  width: 556px;
+  /* width: 556px; */
+  width: 50%;
 }
 
 .lively-club {
-  width: calc(100% - 556px);
+  /* width: calc(100% - 556px); */
+  width: 50%;
 }
 
 .banner-bg span {
@@ -82,4 +84,36 @@
   .lively-club {
     padding: 50px 20px !important;
   }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 1140px) {
+  .lively-club {
+    padding: 50px 16px !important;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .banner-container {
+    display: none;
+  }
+  /* .banner-container {
+     padding: 46px 0 0 16px;
+     height: 150px;
+     box-sizing: border-box;
+     background-image: url("../../public//images/pictures/nft-banner-responsive-bg.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     object-fit: cover;
+     background-size: 100% 100%;
+  }
+
+  .lively-club {
+    background: none;
+    padding: 0;
+  }
+
+  .lively-club h3 {
+    font-size: 16px;
+    line-height: 24px;
+  } */
 }

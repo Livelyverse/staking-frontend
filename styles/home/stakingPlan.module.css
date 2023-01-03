@@ -57,6 +57,23 @@
 
 @media only screen and (min-device-width: 1140px) and (max-device-width: 1240px) {
     .staking-container {
-        padding: 0px 50px !important;
+        padding: 0px 20px !important;
+    }
+}
+
+@media only screen and (min-device-width: 880px) and (max-device-width: 1140px) {
+    .staking-container {
+      padding: 0 16px !important;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 880px) {
+    .staking-container {
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .dapp-btn {
+        margin: 48px 0 0 auto;
     }
 }
