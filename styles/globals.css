@@ -14,8 +14,16 @@
   @apply flex flex-col justify-start items-start
 }
 
+.flex-col-start-center {
+  @apply flex flex-col justify-start items-center
+}
+
 .flex-row-start {
   @apply flex flex-row justify-start items-start
+}
+
+.flex-row-between {
+  @apply flex flex-row justify-between items-center
 }
 
 .flex-row-center {
