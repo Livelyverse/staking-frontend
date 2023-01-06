@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  //set to all
+  important: true,
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     colors: {
@@ -28,6 +30,16 @@ module.exports = {
       'roboto-l': ['RobotoLight'],
       'roboto-m': ['RobotoMedium'],
       'roboto-b': ['RobotoBold'],
+    },
+
+    //costomize screen breakpoint for responsive design.
+
+    screens: {
+      'sm': '320px',
+      'md': '480px',
+      'lg': '850px',
+      'xl': '1140px',
+      '2xl': '1440px'
     },
 
     extend: {},

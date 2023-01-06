@@ -8,8 +8,10 @@ import MarketPlace from '../components/home/MarketPlace';
 export default function Home() {
   return (
     <div className={`${styles.container}`}>
+
       {/* header component */}
       <Header />
+
       {/* Banner Component */}
       <Banner />
 
@@ -24,6 +26,7 @@ export default function Home() {
 
       {/* Footer component */}
       <Footer marginTop={'0'} />
+      
     </div>
   );
 }
