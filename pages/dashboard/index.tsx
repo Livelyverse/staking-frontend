@@ -1,5 +1,6 @@
 import styles from '../../styles/dashboard/dashboard.module.css';
 import React, { FC, useEffect } from 'react';
+// @ts-ignore
 import Header from '../../components/home/Header';
 import infoIcon from '../../public/images/icons/info-icon.svg';
 import Image from 'next/image';
