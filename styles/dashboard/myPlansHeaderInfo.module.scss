@@ -1,0 +1,106 @@
+.my-plans-header-info {
+  height: 100px;
+  position: relative;
+
+  > .plan-title-description {
+    position: absolute;
+    top: 21px;
+    left: 25px;
+
+    > h4 {
+      color: white;
+      font-family: PopinsMedium;
+      font-weight: 600;
+      font-size: 24px;
+      font-style: normal;
+      margin-bottom: 9.4px;
+    }
+
+    > p {
+      font-family: PopinsLight;
+      color: #93979D;
+      font-weight: 400;
+      font-size: 14px;
+
+    }
+  }
+
+  > .time-indicator {
+    border: 1px solid #2F3034;
+    background-color: #181B22;
+    width: 284px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+
+    position: absolute;
+    left: 837px;
+    top: 26px;
+
+    // each container
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & :first-child {
+        color: white;
+        font-family: PopinsLight;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+      }
+
+      & :nth-child(2) {
+        font-family: PopinsLight;
+        color: #93979D;
+        font-weight: 300;
+        font-size: 12px;
+        font-style: normal;
+      }
+    }
+  }
+
+  > .status-indicator {
+    border: 1px solid #0FE317;
+    width: 133px;
+    height: 44px;
+    background: rgba(15, 227, 23, 0.04);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 26px;
+    left: 1145px;
+
+    & :first-child {
+      background: #0FE317;
+      box-shadow: 0px 0px 11px #000000;
+      width: 12px;
+      height: 12px;
+      box-sizing: border-box;
+      border-radius: 6px;
+      margin-left: 30px;
+      margin-right: 10px;
+    }
+
+    & :nth-child(2) {
+      color: #0FE317;
+      font-family: PopinsLight;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+
+    }
+  }
+
+  > img {
+    position: absolute;
+    top: -22px;
+    left: 1260px;
+  }
+}
