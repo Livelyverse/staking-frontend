@@ -1,0 +1,56 @@
+.info-container {
+    background: linear-gradient(300.78deg, #161820 0.7%, rgba(21, 23, 30, 0) 98.67%),
+        linear-gradient(0deg, #2F3034, #2F3034);
+    border: 1px solid #2F3034;
+    width: 240px;
+    max-width: 240px;
+    max-height: 555px;
+}
+
+.info-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    font-feature-settings: 'rclt' off;
+}
+
+.info-box {
+    overflow-y: scroll;
+}
+
+
+/* hide scrollbar but allow scrolling */
+.info-box {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+.info-box::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+.info-item-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'rclt' off;
+    color: #93979D;
+}
+
+.info-item-value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-feature-settings: 'rclt' off;
+    color: #FFFFFF;
+}

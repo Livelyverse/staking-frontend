@@ -1,0 +1,33 @@
+.route {
+    max-width: 1440px;
+}
+
+.route p {
+    font-family: "PopinsLight";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'rclt' off;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.charts-container {
+    max-width: 1440px;
+}
+
+.chart-box {
+    width: 770px;
+    max-width: 770px;
+    height: 555px;
+    max-height: 555px;
+    background: linear-gradient(300.78deg, #161820 0.7%, rgba(21, 23, 30, 0) 98.67%),
+        linear-gradient(0deg, #2F3034, #2F3034);
+    border: 1px solid #2F3034;
+    border-radius: 8px;
+
+}
