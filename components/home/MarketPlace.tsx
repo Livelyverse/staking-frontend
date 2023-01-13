@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const MarketPlace = () => {
   return (
-    <div className={`w-full flex justify-between items-start ${styles['market-container']}`}>
-      <div className={`flex-col-start ${styles['staking-des']}`}>
+    <div className={`w-full flex justify-between items-start sm:max-lg:justify-center sm:max-lg:items-center sm:max-lg:flex-col-reverse ${styles['market-container']}`}>
+      <div className={`flex-col-start sm:max-lg:w-full sm:max-lg:justify-start sm:max-lg:items-start ${styles['staking-des']}`}>
         <h3 className={`${styles['staking-title']} font-popins-m text-white-smoke`}>Market place</h3>
 
         <p className={`${styles['staking-text']} font-popins-l mt-3 max-w-lg`}>
@@ -22,7 +22,7 @@ const MarketPlace = () => {
         </button>
       </div>
 
-      <div className={`${styles['img-container']} rounded-2xl`}>
+      <div className={`${styles['img-container']} rounded-2xl sm:max-lg:mb-10`}>
         <Image className={`rounded-2xl`} src={marketPlaceImg} alt="market place" />
       </div>
     </div>

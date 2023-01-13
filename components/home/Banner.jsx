@@ -13,7 +13,7 @@ const Banner = () => {
       </div>
 
       {/* banner bg section */}
-      <div className={styles['banner-bg']}>
+      <div className={`${styles['banner-bg']} sm:max-md:hidden `}>
         <span>
           <Image style={{ objectFit: 'cover' }} src={bannerNft} />
         </span>

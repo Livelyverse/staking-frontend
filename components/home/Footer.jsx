@@ -183,16 +183,17 @@ export default function Footer(props) {
         </div>
         <div className={style['ourTokens']}>
           <Link href={'staking-plans'}>
-            <p style={{ minWidth: '180px' }}>Staking Plans</p>
+            <p>Staking Plans</p>
+            {/* style={{ minWidth: '180px' }} */}
           </Link>
           <Link href={'inovers-token'}>
-            <p style={{ minWidth: '180px' }}>Innoverse Token (INV)</p>
+            <p>Innoverse Token (INV)</p>
           </Link>
           <Link href={'lively-token'}>
-            <p style={{ minWidth: '180px' }}>Lively Token (LVL)</p>
+            <p>Lively Token (LVL)</p>
           </Link>
           <Link href={'nft'}>
-            <p style={{ minWidth: '180px' }}>Lively Club NFT Exhibition</p>
+            <p>Lively Club NFT Exhibition</p>
           </Link>
         </div>
       </div>

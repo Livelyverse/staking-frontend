@@ -57,6 +57,17 @@
 
 @media only screen and (min-device-width: 1140px) and (max-device-width: 1240px) {
     .market-container {
-        padding: 0px 50px !important;
+        padding: 0px 20px !important;
     }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1140px) {
+    .market-container {
+      padding: 0 16px !important;
+      box-sizing: border-box;
+    }
+
+    .dapp-btn {
+        margin: 48px 0 0 auto;
+    }
+  }
