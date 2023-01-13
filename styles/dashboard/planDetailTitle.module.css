@@ -1,6 +1,8 @@
 .title-container {
     max-width: 1440px;
-    border: 1px solid #2F3034
+    border: 1px solid #2F3034;
+    background-color: #161820;
+
 }
 
 .title h3 {

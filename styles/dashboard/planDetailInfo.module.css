@@ -1,6 +1,5 @@
 .info-container {
-    background: linear-gradient(300.78deg, #161820 0.7%, rgba(21, 23, 30, 0) 98.67%),
-        linear-gradient(0deg, #2F3034, #2F3034);
+    background-color: #161820;
     border: 1px solid #2F3034;
     width: 240px;
     max-width: 240px;
