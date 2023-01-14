@@ -1,0 +1,131 @@
+.my-plans-table-info {
+
+    > div {
+        background: linear-gradient(300.78deg, #161820 0.7%, rgba(21, 23, 30, 0) 98.67%);
+        border: 1px solid #2F3034;
+        border-radius: 8px;
+        // transform: rotate(-180deg);
+    }
+
+    & div:nth-child(1) {
+        width: 440px;
+
+        & div:nth-child(1) {
+            > h3 {
+                font-family: 'PopinsLight';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                font-feature-settings: 'rclt' off;
+                color: #FFFFFF;
+            }
+        }
+
+        > div {
+            & :nth-child(1) {
+                font-family: 'PopinsLight';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 15px;
+                font-feature-settings: 'rclt' off;
+                color: #93979D;
+            }
+
+            & :nth-child(2) {
+                font-family: 'PopinsLight';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                font-feature-settings: 'rclt' off;
+                color: #FFFFFF;
+            }
+        }
+
+        & div:nth-child(5) {
+            & :nth-child(2) {
+                font-family: 'PopinsLight';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                text-decoration-line: underline;
+                font-feature-settings: 'rclt' off;
+                color: #2D79FF;
+            }
+        }
+
+        & div:nth-child(6) {
+            > span {
+                font-family: 'PopinsLight';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                font-feature-settings: 'rclt' off;
+                color: #FFFFFF;
+            }
+        }
+
+        & div:nth-child(7) {
+            > div {
+                background: linear-gradient(270deg, #FFCC00 0%, rgba(0, 0, 0, 0.46) 110.12%);
+                border-radius: 30px;
+            }
+        }
+    }
+
+    & div:nth-child(2) {
+        width: 273px;
+        height: 338px;
+
+        ::-webkit-scrollbar {
+            width: 4px;
+            background-color: #363636;
+            border-radius: 6px;
+        }
+
+        & div:nth-child(1) {
+            > h3 {
+                font-family: 'PopinsLight';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                font-feature-settings: 'rclt' off;
+                color: #FFFFFF;
+            }
+        }
+
+        & div:nth-child(2) {
+            > div {
+                & span:nth-child(1) {
+                    font-family: 'PopinsLight';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 15px;
+                    font-feature-settings: 'rclt' off;
+                    color: #93979D;
+                }
+    
+                & span:nth-child(2) {
+                    font-family: 'PopinsLight';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 18px;
+                    font-feature-settings: 'rclt' off;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    & div:nth-child(3) {
+        width: 615px;
+        height: 338px;
+    }
+}
