@@ -14,10 +14,12 @@ module.exports = {
       mischka: '#B1B2B7',
       LightGray: '#D3D3D3',
       'desert-storm': '#F8F8F6',
-      gray85 : "#D9D9D9",
+      gray85: "#D9D9D9",
       grayGold: "#806600",
       blackRussian: "#181B22",
-      stormGray: "#93979D"
+      stormGray: "#93979D",
+      lightShadeGray: "#A5A5A5",
+      gray34: "#575757"
     },
 
     fontFamily: {

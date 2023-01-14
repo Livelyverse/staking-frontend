@@ -1,0 +1,35 @@
+.title-container {
+    max-width: 1440px;
+    border: 1px solid #2F3034;
+    background-color: #161820;
+
+}
+
+.title h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'rclt' off;
+    color: #F8F8F6;
+}
+
+.title .des {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'rclt' off;
+    color: #93979D;
+}
+
+.plan-icon-section {
+    width: 67px;
+    height: auto;
+}
+
+.plan-icon-section img {
+    width: 100%;
+    height: 100%;
+}
